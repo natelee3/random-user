@@ -1,4 +1,4 @@
-.App {
+html {
   text-align: center;
   min-height: 100vh;
   color: white;
@@ -8,7 +8,7 @@
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 50vw;
   margin: auto;
   text-align: center;
   border: 1px solid gray;
@@ -47,3 +47,4 @@ a {
 button:hover, a:hover {
   opacity: 0.7;
 }
+
