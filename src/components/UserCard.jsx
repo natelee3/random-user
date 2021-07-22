@@ -29,7 +29,6 @@ class UserCard extends React.Component {
                 <h1>RANDOM USER GENERATOR</h1>
                 <button onClick={this._fetchUsers}>Get New Users</button>
                     {userArray.map((user, index) => {
-                        console.log(user[1]['name'].first)
                         let username = user[1]['name'].first + ' ' + user[1]['name'].last
                         let location = user[1]['location'].city + ', ' + user[1]['location'].state
                         return (
